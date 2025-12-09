@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Flask (legacy)
+instance/
+.webassets-cache
+templates/
+static/
+app.py
+fetch_data.py
+rsvp_data.json
+
+# Testing scripts
+generate_sample_data.py
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

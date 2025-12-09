@@ -1,0 +1,19 @@
+{
+  "name": "rooted-rsvp-tracker",
+  "version": "1.0.0",
+  "description": "Rooted RSVP Tracker - Track RSVPs and predict milestones with ETA calculator",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p public && cp index.html app.js data.json public/ 2>/dev/null || true",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "rsvp",
+    "tracker",
+    "rooted",
+    "hackclub",
+    "eta"
+  ],
+  "author": "",
+  "license": "MIT"
+}
